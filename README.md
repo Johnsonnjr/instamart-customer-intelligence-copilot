@@ -595,6 +595,7 @@ ReAct is preferred for this support copilot because order status, delivery time,
 ## Limitations and Next Steps
 
 ### Limitations
+- The premium-based retention list is illustrative because the premium flag uses full-window RFM segmentation, including the September label period; it is not a leakage-free model evaluation.
 
 - The project uses synthetic data and may not represent real customer behaviour.
 - The supplied `mock_llm.py` simulates LLM responses; results may differ from a production LLM.
